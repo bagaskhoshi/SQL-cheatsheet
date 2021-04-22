@@ -1,8 +1,6 @@
 # My SQL Cheatsheet
-## All i need to know about SQL
+Reminder for all the things about SQL
 
 
-Creating Database
-`CREATE DATABASE databasename;` 
-
-ADASDA
+## Creating Database
+`CREATE DATABASE databasename;`  For creating database
