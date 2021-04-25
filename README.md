@@ -28,13 +28,16 @@ Reminder for all the things about SQL
 ## SQL COMMANDS
 
 ### Create Statements
-`CREATE DATABASE IF NOT EXISTS  database_name;`  For creating database
 
-`CREATE SCHEMA IF NOT EXISTS  database_name;`  For creating database
-```SQL
+Create Database
+`CREATE DATABASE IF NOT EXISTS  database_name;`  
+`CREATE SCHEMA IF NOT EXISTS  database_name;`  
+
+Create Table
+```
 CREATE TABLE table_name (
     column1 datatype,
     column2 datatype,
     column3 datatype,
-   ....
-); ```
+    ...
+);
