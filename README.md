@@ -35,7 +35,7 @@ Create Database
 `CREATE SCHEMA IF NOT EXISTS  database_name;`  
 
 Create Table
-```
+```SQL
 CREATE TABLE table_name (
     column1 datatype,
     column2 datatype,
