@@ -16,7 +16,16 @@ Reminder for all the things about SQL
 
 `DECIMAL (size, decimal)` An exact fixed-point number. The total number of digits is specified in size. The number of digits after the decimal point is specified in the decimal parameter. Example DECIMAL (2,1) = 36.5
 
+### Other Data Types 
+`DATE` Used to represent date in the format YYYY-MM-DD Example `'2018-07-25'` = 25 August 2018
 
+`DATETIME`  date and time combination. Format: YYYY-MM-DD hh:mm:ss. Example: `'2018-07-25 13:25:00'`
+
+`TIMESTAMP` Used for well-defined, exact point in time 
+
+`BLOB` For BLOBs (Binary Large OBjects). Holds up to 65,535 bytes of data involves saving files in record Example: .xlsx .xml .doc .jpg etc.
+
+##SQL COMMANDS
 
 ### Creating Database
 `CREATE DATABASE IF NOT EXISTS  database_name;`  For creating database
