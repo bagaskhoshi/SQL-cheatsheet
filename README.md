@@ -25,7 +25,7 @@ Reminder for all the things about SQL
 
 `BLOB` For BLOBs (Binary Large OBjects). Holds up to 65,535 bytes of data involves saving files in record Example: .xlsx .xml .doc .jpg etc.
 
-##SQL COMMANDS
+## SQL COMMANDS
 
 ### Creating Database
 `CREATE DATABASE IF NOT EXISTS  database_name;`  For creating database
