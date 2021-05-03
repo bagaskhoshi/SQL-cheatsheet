@@ -74,3 +74,8 @@ ALTER TABLE add column
 ALTER TABLE table_name
 ADD COLUMN column_name data_types after/before column_that_already_exist;
 ```
+ALTER TABLE CHANGE column name or add default values
+```SQL
+ALTER TABLE table_name
+CHANGE COLUMN column_name column_name /* if you want to change column name second name should be differnet */ data_types DEFAULT "value";
+```
