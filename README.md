@@ -74,11 +74,17 @@ ALTER TABLE add column
 ALTER TABLE table_name
 ADD COLUMN column_name data_types after/before column_that_already_exist;
 ```
-ALTER TABLE CHANGE column name or add/remove default values
+ALTER TABLE CHANGE column name or add/remove default/not null values
 ```SQL
 ALTER TABLE table_name
 CHANGE COLUMN column_name column_name /* if you want to change column name second name should be differnet */ data_types DEFAULT "value";
 
 ALTER TABLE table_name 
 ALTER COLUMN column_name DROP DEFAULT;
+
+ALTER TABLES table_name
+CHANGE column coulmn_name column_name data_type not null; /*null to not null */
+
+ALTER TABLES table_name
+modify  coulmn_name data_type null; /*not null to null */
 ```
