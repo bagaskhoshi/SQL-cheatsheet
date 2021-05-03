@@ -27,7 +27,7 @@ Reminder for all the things about SQL
 
 ## SQL COMMANDS
 
-### Create Statements
+### CREATE Statements
 
 Create Database
 
@@ -44,3 +44,16 @@ CREATE TABLE table_name (
     PRIMARY KEY (column1), /* if this table has primary key */
     FOREIGN KEY (parent_column) REFERENCES parent_table(parent_column) ON DELETE CASCADE /* if this table has a connection with others table */
 );
+
+### ALTER Statements
+
+ALTER TABLE add a foreign key 
+```SQL
+ALTER TABLE table_name
+ADD FOREIGN KEY (child_column) REFERENCES parent_table(parent_column) ON DELETE CASCADE
+```
+ALTER TABLE delete foreign key
+```SQL
+ALTER TABLE table_name
+DROP FOREIGN KEY Constraint_name /* check costraint on ddl tab */
+```
