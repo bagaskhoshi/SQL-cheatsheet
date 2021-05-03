@@ -69,3 +69,8 @@ ALTER TABLE delete unique key
 ALTER TABLE table_name
 DROP INDEX unique_key_name
 ```
+ALTER TABLE add column
+```SQL
+ALTER TABLE table_name
+ADD COLUMN column_name data_types after/before column_that_already_exist;
+```
