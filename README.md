@@ -59,3 +59,13 @@ ALTER TABLE delete foreign key
 ALTER TABLE table_name
 DROP FOREIGN KEY Constraint_name /* check costraint on ddl tab */
 ```
+ALTER TABLE add unique key
+```SQL
+ALTER TABLE table_name
+ADD UNIQUE KEY (column_name);
+```
+ALTER TABLE delete unique key
+```SQL
+ALTER TABLE table_name
+DROP INDEX unique_key_name
+```
