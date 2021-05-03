@@ -41,6 +41,6 @@ CREATE TABLE table_name (
     column2 datatype,
     column3 datatype,
     ...,
-    PRIMARY KEY (column1),
-    FOREIGN KEY (parent_column) REFERENCES parent_table(parent_column) ON DELETE CASCADE    
+    PRIMARY KEY (column1), /* if this table has primary key */
+    FOREIGN KEY (parent_column) REFERENCES parent_table(parent_column) ON DELETE CASCADE /* if this table has a connection with others table */
 );
