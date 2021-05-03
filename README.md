@@ -80,5 +80,5 @@ ALTER TABLE table_name
 CHANGE COLUMN column_name column_name /* if you want to change column name second name should be differnet */ data_types DEFAULT "value";
 
 ALTER TABLE table_name 
-ALTER COLUMN number_of_complaints DROP DEFAULT;
+ALTER COLUMN column_name DROP DEFAULT;
 ```
