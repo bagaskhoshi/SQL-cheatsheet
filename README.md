@@ -49,27 +49,26 @@ CREATE TABLE table_name (
 
 ### ALTER Statements
 
-ALTER TABLE add a foreign key 
+ALTER TABLE add/drop a foreign key 
 ```SQL
 ALTER TABLE table_name
 ADD FOREIGN KEY (child_column) REFERENCES parent_table(parent_column) ON DELETE CASCADE
-```
-ALTER TABLE delete foreign key
-```SQL
+
 ALTER TABLE table_name
 DROP FOREIGN KEY Constraint_name /* check costraint on ddl tab */
 ```
-ALTER TABLE add unique key
+
+ALTER TABLE add/drop unique key
 ```SQL
 ALTER TABLE table_name
 ADD UNIQUE KEY (column_name);
-```
-ALTER TABLE delete unique key
-```SQL
+
 ALTER TABLE table_name
-DROP INDEX unique_key_name
+DROP INDEX unique_key_name;
 ```
-ALTER TABLE add column
+
+
+ALTER TABLE add column and change column name or add/remove default/not null values
 ```SQL
 ALTER TABLE table_name
 ADD COLUMN column_name data_types after/before column_that_already_exist;
