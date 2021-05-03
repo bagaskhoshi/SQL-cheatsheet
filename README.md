@@ -82,9 +82,9 @@ CHANGE COLUMN column_name column_name /* if you want to change column name secon
 ALTER TABLE table_name 
 ALTER COLUMN column_name DROP DEFAULT;
 
-ALTER TABLES table_name
+ALTER TABLE table_name
 CHANGE column coulmn_name column_name data_type not null; /*null to not null */
 
-ALTER TABLES table_name
+ALTER TABLE table_name
 modify  coulmn_name data_type null; /*not null to null */
 ```
