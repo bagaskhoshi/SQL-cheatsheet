@@ -42,7 +42,7 @@ CREATE TABLE table_name (
     column3 datatype,
     ...,
     PRIMARY KEY (column1), /* if this table has primary key */
-    FOREIGN KEY (parent_column) REFERENCES parent_table(parent_column) ON DELETE CASCADE /* if this table has a connection with others table */
+    FOREIGN KEY (parent_column) REFERENCES parent_table(parent_column) ON DELETE CASCADE, /* if this table has a connection with others table */
     UNIQUE KEY (column) /* if this table has a unique key */
 );
 ```
