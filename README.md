@@ -123,6 +123,7 @@ SELECT column1,column2,column3,column4, FROM table_name where condition_1 = 'val
 
 AND > OR 
 AND always comes first than OR
-if you want to use AND and OR in the same script you must use parentheses
+if you want to use AND and OR in the same script you must use parentheses 
+so the syntax should be:
 SELECT * FROM table_name  WHERE condition_1 = 'value_1' AND (condition_2 = 'value2' OR conditon_2 = 'value3');
 ```
