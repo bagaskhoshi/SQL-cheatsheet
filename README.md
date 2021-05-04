@@ -87,3 +87,12 @@ CHANGE column coulmn_name column_name data_type not null; /*null to not null */
 ALTER TABLE table_name
 modify  coulmn_name data_type null; /*not null to null */
 ```
+
+### SELECT Statement
+
+SELECT some column/all from certain table
+```SQL
+SELECT column1,column2,column3,column3 FROM table_name;
+
+SELECT * FROM table name; /* * mean all */
+```
