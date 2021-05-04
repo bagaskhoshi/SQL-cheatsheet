@@ -115,5 +115,5 @@ SELECT column1,column2,column3,column4 FROM table_name where condition_1 = 'valu
 Let you collect some column/all for certain table with combining two statement with same condition but same different values (more than 1 condition. MUST BE SAME CONDITION).
 Example: selecting data from buyers table with the name of = anggita OR with the name of = bagas
 ```SQL
-SELECT column1,column2,column3,column4, FROM table_name where condition_1 = 'value' OR condition_1 = 'value2';
+SELECT column1,column2,column3,column4, FROM table_name where condition_1 = 'value1' OR condition_1 = 'value2';
 ```
