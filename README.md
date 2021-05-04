@@ -99,15 +99,21 @@ SELECT * FROM table name; /* * mean all */
 ```
 
 `SELECT WHERE` 
-Let you collect some column/all for certain table with a condition upon which we will specify what part of the data we want to retrieve from database 
+Let you collect some column/all for certain table with a condition 
 Example: Selecting data from buyers table with the name of = Anggita
 ```SQL
-SELECT column1,column2,column3,column4 from table_name where condition_1 = 'value';
+SELECT column1,column2,column3,column4 FROM table_name WHERE condition_1 = 'value';
 ```
 
 `SELECT WHERE AND` 
-Let you collect some column/all for certain table with combining two statement (more than 1 condition).
-Example: selecting data from buyers table with the name of = Anggita and with the age of = 23
+Let you collect some column/all for certain table with combining two statement with different condition (more than 1 condition. MUST BE DIFFERENT CONDITION).
+Example: selecting data from buyers table with the name of = Anggita AND with the age of = 23
 ```SQL
-SELECT column1,column2,column3,column4 from table_name where condition_1 = 'value1' AND condition_2 = 'value2';
+SELECT column1,column2,column3,column4 FROM table_name where condition_1 = 'value1' AND condition_2 = 'value2';
+```
+`SELECT WHERE OR`
+Let you collect some column/all for certain table with combining two statement with same condition but same different values (more than 1 condition. MUST BE SAME CONDITION).
+Example: selecting data from buyers table with the name of = anggita OR with the name of = bagas
+```SQL
+SELECT column1,column2,column3,column4, FROM table_name where condition_1 = 'value' OR condition_1 = 'value2';
 ```
