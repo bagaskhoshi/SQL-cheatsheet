@@ -96,3 +96,9 @@ SELECT column1,column2,column3,column3 FROM table_name;
 
 SELECT * FROM table name; /* * mean all */
 ```
+
+Select some column/all for certain table with a condition upon which we will specify what part of the data we want to retrieve from database
+Example = Selecting data from buyers table with the name of = Anggita
+```SQL
+SELECT column1,column2,column3,column4 from table_name where condition_1 = 'value'
+```
