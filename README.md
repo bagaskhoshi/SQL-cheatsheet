@@ -90,15 +90,24 @@ modify  coulmn_name data_type null; /*not null to null */
 
 ### SELECT Statement
 
-SELECT some column/all from certain table
+`SELECT` 
+collect some column/all from certain table
 ```SQL
 SELECT column1,column2,column3,column3 FROM table_name;
 
 SELECT * FROM table name; /* * mean all */
 ```
 
-SELECT [WHERE] some column/all for certain table with a condition upon which we will specify what part of the data we want to retrieve from database 
-Example = Selecting data from buyers table with the name of = Anggita
+`SELECT WHERE` 
+Let you collect some column/all for certain table with a condition upon which we will specify what part of the data we want to retrieve from database 
+Example: Selecting data from buyers table with the name of = Anggita
 ```SQL
 SELECT column1,column2,column3,column4 from table_name where condition_1 = 'value';
+```
+
+`SELECT WHERE AND` 
+Let you collect some column/all for certain table with combining two statement (more than 1 condition).
+Example: selecting data from buyers table with the name of = Anggita and with the age of = 23
+```SQL
+SELECT column1,column2,column3,column4 from table_name where condition_1 = 'value1' AND condition_2 = 'value2';
 ```
