@@ -118,7 +118,7 @@ Example: selecting data from buyers table with the name of = anggita OR with the
 SELECT column1,column2,column3,column4, FROM table_name where condition_1 = 'value1' OR condition_1 = 'value2';
 ```
 
-NOTE
+*OPERATOR PRECENDENCE NOTE*
 ```SQL
 
 AND > OR 
