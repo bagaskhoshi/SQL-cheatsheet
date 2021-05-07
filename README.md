@@ -151,9 +151,9 @@ The LIKE operator is used in a WHERE clause to search for a specified pattern in
 </br> Example 1: selecting data from purchase date within = LIKE january 2020.
 </br> Example 1: selecting data from purchase date beside = NOT LIKE january 2020.
 ```SQL
-SELECT * FROM table_name WHERE condition_1 condition_2 LIKE (`value%2')
+SELECT * FROM table_name WHERE condition_1 condition_2 LIKE (`value%2');
 
-SELECT * FROM table_name WHERE condition_1 condition_2 LIKE ('value_2')
+SELECT * FROM table_name WHERE condition_1 condition_2 LIKE ('value_2');
 ```
 
 
