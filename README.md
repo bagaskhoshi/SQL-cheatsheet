@@ -153,7 +153,7 @@ The LIKE operator is used in a WHERE clause to search for a specified pattern in
 ```SQL
 SELECT * FROM table_name WHERE condition_1 LIKE (`value%')
 
-SELECT * FROM table_name WHERE condition_1 LIKE ('value_'
+SELECT * FROM table_name WHERE condition_1 LIKE ('value_')
 ```
 
 
