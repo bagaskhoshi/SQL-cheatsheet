@@ -5,7 +5,7 @@ Reminder for all the things about SQL
 ### String Data Types
 
 `CHAR(size)` or Character A FIXED length string (can contain letters, numbers, and special characters). The size parameter specifies the column length in characters - can be from 0 to 255. Default is 1. Used when a fixed amount of data. 
-Example: Student ID Number Or ID Card Number
+</br>Example: Student ID Number Or ID Card Number
 
 `VARCHAR(size)` or Variable Character  A VARIABLE length string (can contain letters, numbers, and special characters). The size parameter specifies the maximum column length in characters - can be from 0 to 65535. used when the amount of data is not fixed. 
 Example: Password
