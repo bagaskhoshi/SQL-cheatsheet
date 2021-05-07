@@ -135,3 +135,25 @@ AND > OR
 ```SQL
 SELECT * FROM table_name  WHERE condition_1 = 'value_1' AND (condition_2 = 'value2' OR conditon_2 = 'value3');
 ```
+
+`SELECT WHERE IN / NOT IN`
+Let you collect some data from collumn/all for certain table with combiing two state ment with same condition but different values (most efficient way than `OR`)
+</br> Example 1: selecting data from buyers table with the same name of = IN Khoshi , Dyah 
+</br> Example 2: selectiong data from buyers table not the same name of = NOT IN Bagas, Pratiwi (other than these two)
+```SQL
+SELECT * FROM table_name WHERE condition_1 ('value1','value'2,'value3');
+```
+
+`SELECT WHERE LIKE/NOT LIKE`
+The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+`The percent sign (%) represents zero, one, or multiple characters`
+` The underscore sign (_) represents one, single character`
+</br> Example 1: selecting data from purchase date within = LIKE january 2020.
+</br> Example 1: selecting data from purchase date beside = NOT LIKE january 2020.
+```SQL
+SELECT * FROM table_name WHERE condition_1 LIKE (`value%')
+
+SELECT * FROM table_name WHERE condition_1 LIKE ('value_'
+```
+
+
