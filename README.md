@@ -8,29 +8,29 @@ Reminder for all the things about SQL
 </br>Example: Student ID Number Or ID Card Number
 
 `VARCHAR(size)` or Variable Character  A VARIABLE length string (can contain letters, numbers, and special characters). The size parameter specifies the maximum column length in characters - can be from 0 to 65535. used when the amount of data is not fixed. 
-Example: Password
+</br>Example: Password
 
 `ENUM('value1','value2','..')` A string object that can have only one value, chosen from a list of possible values. If a value is inserted that is not in the list, a blank value will be inserted. The values are sorted in the order you enter them. 
-Example: Male or Female, Yes Or No
+</br>Example: Male or Female, Yes Or No
 
 ### Numeric Data Types
 
 `INT` Integers is a whole numbers with no decimal points Example: 5; 10; -100; 1000;
 
 `DECIMAL (size, decimal)` An exact fixed-point number. The total number of digits is specified in size. The number of digits after the decimal point is specified in the decimal parameter. 
-Example DECIMAL (2,1) = 36.5
+</br> Example DECIMAL (2,1) = 36.5
 
 ### Other Data Types 
 `DATE` Used to represent date in the format YYYY-MM-DD 
-Example `'2018-07-25'` = 25 August 2018
+</br> Example `'2018-07-25'` = 25 August 2018
 
 `DATETIME`  date and time combination. Format: YYYY-MM-DD hh:mm:ss. 
-Example: `'2018-07-25 13:25:00'`
+</br> Example: `'2018-07-25 13:25:00'`
 
 `TIMESTAMP` Used for well-defined, exact point in time 
 
 `BLOB` For BLOBs (Binary Large OBjects). Holds up to 65,535 bytes of data involves saving files in record 
-Example: .xlsx .xml .doc .jpg etc.
+</br> Example: .xlsx .xml .doc .jpg etc.
 
 ## SQL COMMANDS
 
@@ -107,7 +107,7 @@ SELECT * FROM table name; /* * mean all */
 
 `SELECT WHERE` 
 Let you collect some column/all for certain table with a condition 
-Example: Selecting data from buyers table with the name of = Anggita
+</br> Example: Selecting data from buyers table with the name of = Anggita
 ```SQL
 SELECT column1,column2,column3,column4 FROM table_name WHERE condition_1 = 'value';
 ```
@@ -115,23 +115,23 @@ SELECT column1,column2,column3,column4 FROM table_name WHERE condition_1 = 'valu
 `SELECT WHERE AND` 
 Let you collect some column/all for certain table with combining two statement with different condition 
 (more than 1 condition. MUST BE DIFFERENT CONDITION).
-Example: selecting data from buyers table with the name of = Anggita AND with the age of = 23
+</br> Example: selecting data from buyers table with the name of = Anggita AND with the age of = 23
 ```SQL
 SELECT column1,column2,column3,column4 FROM table_name where condition_1 = 'value1' AND condition_2 = 'value2';
 ```
 `SELECT WHERE OR`
 Let you collect some column/all for certain table with combining two statement with same condition but same different values 
 (more than 1 condition. MUST BE SAME CONDITION).
-Example: selecting data from buyers table with the name of = anggita OR with the name of = bagas
+</br> Example: selecting data from buyers table with the name of = anggita OR with the name of = bagas
 ```SQL
 SELECT column1,column2,column3,column4, FROM table_name where condition_1 = 'value1' OR condition_1 = 'value2';
 ```
 
 *OPERATOR PRECENDENCE NOTE*
 AND > OR
-AND always comes first than OR
-if you want to use AND and OR in the same script you must use parentheses
-so the syntax should bee:
+</br> AND always comes first than OR
+</br> if you want to use AND and OR in the same script you must use parentheses
+</br> so the syntax should bee:
 ```SQL
 SELECT * FROM table_name  WHERE condition_1 = 'value_1' AND (condition_2 = 'value2' OR conditon_2 = 'value3');
 ```
