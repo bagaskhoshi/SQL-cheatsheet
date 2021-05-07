@@ -4,26 +4,33 @@ Reminder for all the things about SQL
 ## Data types
 ### String Data Types
 
-`CHAR(size)` or Character A FIXED length string (can contain letters, numbers, and special characters). The size parameter specifies the column length in characters - can be from 0 to 255. Default is 1. Used when a fixed amount of data. Example: Student ID Number Or ID Card Number
+`CHAR(size)` or Character A FIXED length string (can contain letters, numbers, and special characters). The size parameter specifies the column length in characters - can be from 0 to 255. Default is 1. Used when a fixed amount of data. 
+Example: Student ID Number Or ID Card Number
 
-`VARCHAR(size)` or Variable Character  A VARIABLE length string (can contain letters, numbers, and special characters). The size parameter specifies the maximum column length in characters - can be from 0 to 65535. used when the amount of data is not fixed. Example: Password
+`VARCHAR(size)` or Variable Character  A VARIABLE length string (can contain letters, numbers, and special characters). The size parameter specifies the maximum column length in characters - can be from 0 to 65535. used when the amount of data is not fixed. 
+Example: Password
 
-`ENUM('value1','value2','..')` A string object that can have only one value, chosen from a list of possible values. If a value is inserted that is not in the list, a blank value will be inserted. The values are sorted in the order you enter them. Example: Male or Female, Yes Or No
+`ENUM('value1','value2','..')` A string object that can have only one value, chosen from a list of possible values. If a value is inserted that is not in the list, a blank value will be inserted. The values are sorted in the order you enter them. 
+Example: Male or Female, Yes Or No
 
 ### Numeric Data Types
 
 `INT` Integers is a whole numbers with no decimal points Example: 5; 10; -100; 1000;
 
-`DECIMAL (size, decimal)` An exact fixed-point number. The total number of digits is specified in size. The number of digits after the decimal point is specified in the decimal parameter. Example DECIMAL (2,1) = 36.5
+`DECIMAL (size, decimal)` An exact fixed-point number. The total number of digits is specified in size. The number of digits after the decimal point is specified in the decimal parameter. 
+Example DECIMAL (2,1) = 36.5
 
 ### Other Data Types 
-`DATE` Used to represent date in the format YYYY-MM-DD Example `'2018-07-25'` = 25 August 2018
+`DATE` Used to represent date in the format YYYY-MM-DD 
+Example `'2018-07-25'` = 25 August 2018
 
-`DATETIME`  date and time combination. Format: YYYY-MM-DD hh:mm:ss. Example: `'2018-07-25 13:25:00'`
+`DATETIME`  date and time combination. Format: YYYY-MM-DD hh:mm:ss. 
+Example: `'2018-07-25 13:25:00'`
 
 `TIMESTAMP` Used for well-defined, exact point in time 
 
-`BLOB` For BLOBs (Binary Large OBjects). Holds up to 65,535 bytes of data involves saving files in record Example: .xlsx .xml .doc .jpg etc.
+`BLOB` For BLOBs (Binary Large OBjects). Holds up to 65,535 bytes of data involves saving files in record 
+Example: .xlsx .xml .doc .jpg etc.
 
 ## SQL COMMANDS
 
@@ -106,13 +113,15 @@ SELECT column1,column2,column3,column4 FROM table_name WHERE condition_1 = 'valu
 ```
 
 `SELECT WHERE AND` 
-Let you collect some column/all for certain table with combining two statement with different condition (more than 1 condition. MUST BE DIFFERENT CONDITION).
+Let you collect some column/all for certain table with combining two statement with different condition 
+(more than 1 condition. MUST BE DIFFERENT CONDITION).
 Example: selecting data from buyers table with the name of = Anggita AND with the age of = 23
 ```SQL
 SELECT column1,column2,column3,column4 FROM table_name where condition_1 = 'value1' AND condition_2 = 'value2';
 ```
 `SELECT WHERE OR`
-Let you collect some column/all for certain table with combining two statement with same condition but same different values (more than 1 condition. MUST BE SAME CONDITION).
+Let you collect some column/all for certain table with combining two statement with same condition but same different values 
+(more than 1 condition. MUST BE SAME CONDITION).
 Example: selecting data from buyers table with the name of = anggita OR with the name of = bagas
 ```SQL
 SELECT column1,column2,column3,column4, FROM table_name where condition_1 = 'value1' OR condition_1 = 'value2';
