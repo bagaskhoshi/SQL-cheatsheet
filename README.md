@@ -166,3 +166,10 @@ The BETWEEN operator selects values within a given range. The values can be numb
 SELECT * FROM table_name WHERE condition_1 BETWEEN 'value1' AND 'value2';
 SELECT * FROM table_name WHERE condition_1 NOT BETWEEN 'value1' AND 'value2';
 ```
+`SELECT WHERE FROM ORDER BY ASC/DESC`
+The ORDER BY keyword is used to sort the result-set in ascending or descending order.
+The ORDER BY keyword sorts the records in ascending order by default. To sort the records in descending order, use the DESC keyword.
+</br> Example 1: selecting data from purchase number ORDER BY DESC
+```SQL
+SELECT * FROM table_name ORDER BY column1,column2 ASC / DESC
+```
