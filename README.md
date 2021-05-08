@@ -1,4 +1,4 @@
-# My SQL Cheatsheet
+# SQL/MySQL Cheatsheet
 Reminder for all the things about SQL
 
 ## Data types
