@@ -156,4 +156,11 @@ SELECT * FROM table_name WHERE condition_1 condition_2 LIKE (`value%2');
 SELECT * FROM table_name WHERE condition_1 condition_2 LIKE ('value_2');
 ```
 
-
+`SELECT WHERE BETWEEN/NOT BETWEEN AND`
+The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates.
+</br> Example 1: selecting data from price table = BETWEEN 100.000 AND 500.000
+</br> Example 1: selecting data from price table = NOT BETWEEN 100.000 AND 500.00
+``` SQL 
+SELECT * FROM table_name WHERE condition_1 BETWEEN 'value1' AND 'value2';
+SELECT * FROM table_name WHERE condition_1 NOT BETWEEN 'value1' AND 'value2';
+```
