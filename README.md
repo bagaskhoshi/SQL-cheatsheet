@@ -104,7 +104,7 @@ SELECT column1,column2,column3,column3 FROM table_name;
 
 SELECT * FROM table_name; /* * mean all */
 
-SELECT DISTICT FROM table_name; /* The SELECT DISTINCT statement is used to return only distinct (different) values. */
+SELECT DISTINCT FROM table_name; /* The SELECT DISTINCT statement is used to return only distinct (different) values. */
 ```
 
 `SELECT WHERE` 
