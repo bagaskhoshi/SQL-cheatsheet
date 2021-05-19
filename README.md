@@ -173,3 +173,15 @@ SELECT * FROM table_name WHERE condition_1 NOT BETWEEN 'value1' AND 'value2';
 ```SQL
 SELECT * FROM table_name ORDER BY column1,column2 ASC / DESC
 ```
+
+`SELECT WHERE FROM GROUP BY`
+<br> The GROUP BY statement groups rows that have the same values into summary rows, like "find the number of customers in each country".
+<br> The GROUP BY statement is often used with aggregate functions (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result-set by one or more columns.
+<br> Example 1: count the list of customer in each country
+```SQL
+SELECT COUNT(column1), column2
+FROM table
+GROUP BY column2
+ORDER BY COUNT(column1) DESC;
+```
+
