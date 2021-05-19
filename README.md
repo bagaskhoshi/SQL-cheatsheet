@@ -192,3 +192,18 @@ ORDER BY COUNT(column1) DESC;
 ```sql
 SELECT * FROM table_name WHERE condition_1 AS new_alias;
 ```
+
+`SELECT FROM WHERE GROU BY HAVING ORDER BY`
+<br> The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions.
+<br> Example 1: extract all names that are encountered less than 200 times and the data refered to people who hired after 1 may 1998
+```sql
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+GROUP BY column_name(s)
+HAVING condition
+ORDER BY column_name(s);
+```
+WHEN TO USE `HAVING OR WHERE`
+IF YOU NEED TO USE AGGREGATE FUNCTION (COUNT,AVR,MAX,MIN) USE `GROUP BY AND HAVING`
+IF YOU ONLY GENERAL CONDITION USE `WHERE`
