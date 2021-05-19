@@ -97,8 +97,8 @@ modify  coulmn_name data_type null; /*not null to null */
 
 ### SELECT Statement
 
-`SELECT` 
-collect some column/all from certain table
+`SELECT`
+<br>collect some column/all from certain table
 ```SQL
 SELECT column1,column2,column3,column3 FROM table_name;
 
@@ -108,20 +108,22 @@ SELECT DISTINCT FROM table_name; /* The SELECT DISTINCT statement is used to ret
 ```
 
 `SELECT WHERE` 
-Let you collect some column/all for certain table with a condition 
+<br>Let you collect some column/all for certain table with a condition 
 </br> Example: Selecting data from buyers table with the name of = Anggita
 ```SQL
 SELECT column1,column2,column3,column4 FROM table_name WHERE condition_1 = 'value';
 ```
 
 `SELECT WHERE AND` 
-Let you collect some column/all for certain table with combining two statement with different condition 
+
+<br>Let you collect some column/all for certain table with combining two statement with different condition 
 (more than 1 condition. MUST BE DIFFERENT CONDITION).
 </br> Example: selecting data from buyers table with the name of = Anggita AND with the age of = 23
 ```SQL
 SELECT column1,column2,column3,column4 FROM table_name where condition_1 = 'value1' AND condition_2 = 'value2';
 ```
-`SELECT WHERE OR`
+`SELECT WHERE OR` 
+<br>
 Let you collect some column/all for certain table with combining two statement with same condition but same different values 
 (more than 1 condition. MUST BE SAME CONDITION).
 </br> Example: selecting data from buyers table with the name of = anggita OR with the name of = bagas
@@ -138,7 +140,8 @@ AND > OR
 SELECT * FROM table_name  WHERE condition_1 = 'value_1' AND (condition_2 = 'value2' OR conditon_2 = 'value3');
 ```
 
-`SELECT WHERE IN / NOT IN`
+`SELECT WHERE IN / NOT IN` 
+<br>
 Let you collect some data from collumn/all for certain table with combiing two state ment with same condition but different values (most efficient way than `OR`)
 </br> Example 1: selecting data from buyers table with the same name of = IN Khoshi , Dyah 
 </br> Example 2: selectiong data from buyers table not the same name of = NOT IN Bagas, Pratiwi (other than these two)
@@ -147,6 +150,7 @@ SELECT * FROM table_name WHERE condition_1 IN ('value1','value'2,'value3');
 ```
 
 `SELECT WHERE LIKE/NOT LIKE`
+<br>
 The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
 `The percent sign (%) represents zero, one, or multiple characters`
 ` The underscore sign (_) represents one, single character`
@@ -159,6 +163,7 @@ SELECT * FROM table_name WHERE condition_1 condition_2 LIKE ('value_2');
 ```
 
 `SELECT WHERE BETWEEN/NOT BETWEEN AND`
+<br>
 The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates.
 </br> Example 1: selecting data from price table = BETWEEN 100.000 AND 500.000
 </br> Example 1: selecting data from price table = NOT BETWEEN 100.000 AND 500.00
