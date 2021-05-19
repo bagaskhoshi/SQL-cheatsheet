@@ -190,7 +190,7 @@ ORDER BY COUNT(column1) DESC;
 <br>Aliases are often used to make column names more readable.
 <br> Example 1: change column name from first_name to nama_depan
 ```sql
-SELECT * FROM table_name WHERE condition_1 AS new_alias;
+SELECT column1 AS new_alias FROM table_name WHERE condition_1;
 ```
 
 `SELECT FROM WHERE GROU BY HAVING ORDER BY`
