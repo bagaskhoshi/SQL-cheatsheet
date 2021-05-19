@@ -185,3 +185,10 @@ GROUP BY column2
 ORDER BY COUNT(column1) DESC;
 ```
 
+`SELECT FROM WHERE AS`
+<br>SQL aliases are used to give a table, or a column in a table, a temporary name.
+<br>Aliases are often used to make column names more readable.
+<br> Example 1: change column name from first_name to nama_depan
+```sql
+SELECT * FROM table_name WHERE condition_1 AS new_alias;
+```
