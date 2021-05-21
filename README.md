@@ -45,7 +45,7 @@ Reminder for all the things about SQL
 
 ## SQL COMMANDS
 
-### CREATE Statements
+### CREATE Statement
 
 Create Database
 
@@ -65,7 +65,7 @@ CREATE TABLE table_name (
 );
 ```
 
-### ALTER Statements
+### ALTER Statement
 
 ALTER TABLE add/drop a foreign key 
 ```SQL
