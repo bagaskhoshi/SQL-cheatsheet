@@ -3,6 +3,7 @@ Reminder for all the things about SQL
 
 ## table of content
 1. [DATA TYPES](##Data-Types)
+   * Item 2a
 
 ## Data types
 ### String Data Types
