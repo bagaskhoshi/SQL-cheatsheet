@@ -136,8 +136,6 @@ where condition1
 
 __BE CAREFUL THE WHERE CLAUSE IS IMPORTANT, IF YOU DID NOT FULFILL THE CONDITION ALL THE RECORD TABLE WILL BE CHANGED__
 
-
-
 ### DELETE Statement
 `DELETE FROM WHERE`
 DELETE statement is used to delete the records in the spesific table
@@ -158,6 +156,11 @@ COMMIT;
 ROLLBACK is the SQL command that is used for reverting changes performed by a transaction. When a ROLLBACK command is issued it reverts all the changes since last COMMIT or ROLLBACK.
 ```SQL
 ROLLBACK;
+```
+
+___NOTE: IF YOU WANT TO USE COMMIT/ROLLBACK MAKE SURE TO SET AUTO COMMIT TO 0___
+```SQL
+SET autocommit=0;
 ```
 
 ### SELECT Statement
