@@ -1,6 +1,9 @@
 # SQL/MySQL Cheatsheet
 Reminder for all the things about SQL
 
+## table of content
+1. [DATA TYPES] (#DATA TYPES)
+
 ## Data types
 ### String Data Types
 
