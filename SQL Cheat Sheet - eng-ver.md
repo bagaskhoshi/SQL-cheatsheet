@@ -133,7 +133,32 @@ column_name2 = 'value2'
 column_name3 = 'value3'
 where condition1 
 ```
-__BE CAREFUL THE WHERE CLAUSE IS IMPORTANT, IF YOU DID NOT FULFILL THE CONDITION ALL TABLE WILL BE CHANGED__
+
+__BE CAREFUL THE WHERE CLAUSE IS IMPORTANT, IF YOU DID NOT FULFILL THE CONDITION ALL THE RECORD TABLE WILL BE CHANGED__
+
+
+
+### DELETE Statement
+`DELETE FROM WHERE`
+DELETE statement is used to delete the records in the spesific table
+```SQL
+DELETE FROM table_name
+WHERE condition
+```
+__BE CAREFUL THE WHERE CLAUSE IS IMPORTANT, IF YOU DID NOT FULFILL THE CONDITION ALL RECORD IN TABLE WILL BE DELETED__
+
+### COMMIT & ROLLBACK Statement
+`COMMIT` 
+COMMITis the SQL command that is used for storing changes performed by a transaction. When a COMMIT command is issued it saves all the changes since last COMMIT or ROLLBACK. in other words a SAVEPOINT for your work
+```SQL
+COMMIT;
+```
+
+`ROLLBACK`
+ROLLBACK is the SQL command that is used for reverting changes performed by a transaction. When a ROLLBACK command is issued it reverts all the changes since last COMMIT or ROLLBACK.
+```SQL
+ROLLBACK;
+```
 
 ### SELECT Statement
 
