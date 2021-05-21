@@ -6,6 +6,11 @@ Reminder for all the things about SQL
    * [String Data Types](#String-Data-Types)
    * [Numeric Data Types](#Numeric-Data-Types)
    * [Other Data Types](#Other-Data-Types)
+2. [SQL COMMAND](#sql-commands)
+   * [Create Statement](#create-statement)
+   * [Alter Statement](#Alter-statement)
+   * [Insert Statement](#Insert-statement)
+   * [Select Statement](#Select-statement)
 
 ## Data types
 ### String Data Types
