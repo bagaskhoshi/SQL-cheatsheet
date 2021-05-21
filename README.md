@@ -97,14 +97,14 @@ modify  coulmn_name data_type null; /*not null to null */
 
 ### INSERT Statement
 `INSERT INTO`
-The INSERT INTO statement is used to insert new records in a table.
+<br>The INSERT INTO statement is used to insert new records in a table.
 ```SQL 
 INSERT INTO table_name (column1, column2, column3, ...)
 VALUES (value1, value2, value3, ...); 
 ```
 
 `The INSERT INTO SELECT`
-The INSERT INTO SELECT statement copies data from one table and inserts it into another table.
+<br>The INSERT INTO SELECT statement copies data from one table and inserts it into another table.
 ```SQL
 INSERT INTO table2
 SELECT * FROM table1
