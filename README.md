@@ -2,7 +2,7 @@
 Reminder for all the things about SQL
 
 ## table of content
-1. [MARKDOWN - DATA TYPES](## DATA TYPES)
+	[Markdown - Link](#Link)
 
 ## Data types
 ### String Data Types
