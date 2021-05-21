@@ -2,10 +2,10 @@
 Reminder for all the things about SQL
 
 ## table of content
-1. [DATA TYPES](##Data-Types)
-  * [String Data Types](#String-Data-Types)
-  * [Numeric Data Types](#Numeric-Data-Types)
-  * [Other Data Types](###Other-Data-Types)
+1. [DATA TYPES](#Data-Types)
+   * [String Data Types](#String-Data-Types)
+   * [Numeric Data Types](#Numeric-Data-Types)
+   * [Other Data Types](#Other-Data-Types)
 
 ## Data types
 ### String Data Types
