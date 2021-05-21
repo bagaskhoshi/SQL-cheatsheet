@@ -122,6 +122,19 @@ SELECT * FROM table1
 WHERE condition; 
 ```
 
+### UPDATE Statement
+`UPDATE SET WHERE`
+Update state ment is used to change the value in the spesific table
+```
+UPDATE table_name
+set 
+column_name1 = 'value1'
+column_name2 = 'value2'
+column_name3 = 'value3'
+where condition1 
+```
+__BE CAREFUL THE WHERE CLAUSE IS IMPORTANT, IF YOU DID NOT FULFILL THE CONDITION ALL TABLE WILL BE CHANGED__
+
 ### SELECT Statement
 
 `SELECT`
