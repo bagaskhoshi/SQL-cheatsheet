@@ -11,6 +11,8 @@ Reminder for all the things about SQL
    * [Alter Statement](#Alter-statement)
    * [Insert Statement](#Insert-statement)
    * [Select Statement](#Select-statement)
+   * [DELETE, DROP and TRUNCATE Statement](#Delete-statement)
+   * 
 
 ## Data types
 ### String Data Types
