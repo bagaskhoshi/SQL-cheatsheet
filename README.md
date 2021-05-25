@@ -259,12 +259,14 @@ FROM table
 GROUP BY column2
 ORDER BY COUNT(column1) DESC;
 ````
-<details>EXAMPLE 1 ANSWER :
-  ```sql
+<details>
+  <summary>Example 1 Answer</summary>
+  
+```SQL
 SELECT count(customer_no), country
 from customer
 group by country;
-  ```
+ ```
   
   </details>
 
