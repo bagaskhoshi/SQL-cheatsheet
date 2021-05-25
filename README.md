@@ -258,7 +258,16 @@ SELECT COUNT(column1), column2
 FROM table
 GROUP BY column2
 ORDER BY COUNT(column1) DESC;
-```
+````
+<details>EXAMPLE 1 ANSWER :
+  ```sql
+SELECT count(customer_no), country
+from customer
+group by country;
+  ```
+  
+  </details>
+
 
 `SELECT FROM WHERE AS`
 <br>SQL aliases are used to give a table, or a column in a table, a temporary name.
@@ -282,3 +291,7 @@ ORDER BY column_name(s);
 ***WHEN TO USE `HAVING OR WHERE`***
 <BR>IF YOU NEED TO USE AGGREGATE FUNCTION (COUNT,AVR,MAX,MIN) USE `GROUP BY AND HAVING`
 <BR>IF YOU ONLY GENERAL CONDITION USE `WHERE`
+  
+  
+## AGGREGATE FUNCTION
+  
