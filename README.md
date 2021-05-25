@@ -292,6 +292,7 @@ ORDER BY column_name(s);
 ```
 <details>
   <summary>EXAMPLE 1 ANSWER</SUMMARY>
+  
 ```sql
 SELECT 
     first_name, COUNT(first_name)
@@ -303,6 +304,7 @@ WHERE
     having count(first_name) < 200
     order by first_name asc;
 ```
+                                  
 </details>
   
   
