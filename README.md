@@ -290,6 +290,22 @@ GROUP BY column_name(s)
 HAVING condition
 ORDER BY column_name(s);
 ```
+<details>
+  <summary>EXAMPLE 1 ANSWER</SUMMARY>
+```sql
+SELECT 
+    first_name, COUNT(first_name)
+FROM
+    employees
+WHERE
+    hire_date > '1998-05-01'
+    group by first_name
+    having count(first_name) < 200
+    order by first_name asc;
+```
+</details>
+  
+  
 ***WHEN TO USE `HAVING OR WHERE`***
 <BR>IF YOU NEED TO USE AGGREGATE FUNCTION (COUNT,AVR,MAX,MIN) USE `GROUP BY AND HAVING`
 <BR>IF YOU ONLY GENERAL CONDITION USE `WHERE`
